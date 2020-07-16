@@ -1,0 +1,70 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+}
+
+.green{
+    background-color: green;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.pink{
+    background-color: palevioletred;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    position: relative;
+}
+
+.round{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.top{
+    top: 0;
+}
+ .right{
+right: 0;
+ }
+ .left{
+left: 0;
+ }
+ .bottom{
+bottom: 0;
+ }
+
+
+
+/* #top-left{
+    top: 0px;
+    left: 0px;
+}
+
+#top-right{
+    top: 0px;
+    right: 0px;
+
+}
+
+#bottom-left{
+    bottom: 0px;
+    left: 0px;
+}
+
+#bottom-right{
+    bottom: 0px;
+    right: 0px;
+} */
